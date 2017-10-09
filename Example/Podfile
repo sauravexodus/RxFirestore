@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RxFirestore_Example' do
+  pod 'RxFirestore', :path => '../'
+
+  target 'RxFirestore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
