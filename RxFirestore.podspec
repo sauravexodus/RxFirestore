@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   Reactive X wrappers for Firestore.
                        DESC
 
-  s.homepage         = 'git@github.com:sauravexodus/RxFirestore.git'
+  s.homepage         = 'https://github.com/sauravexodus/RxFirestore'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sauravexodus' => 'saurav.chandra1992@live.com' }
-  s.source           = { :git => 'https://github.com/sauravexodus/RxFirestore.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:sauravexodus/RxFirestore.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
