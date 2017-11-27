@@ -1,6 +1,0 @@
-framework module RxFirestore {
-  umbrella header "RxFirestore-umbrella.h"
-
-  export *
-  module * { export * }
-}
