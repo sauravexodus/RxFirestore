@@ -1,0 +1,30 @@
+{
+  "name": "RxFirestore",
+  "version": "0.1.0",
+  "summary": "Reactive extensions for Firebase Firestore",
+  "description": "Reactive X wrappers for Firestore.",
+  "homepage": "git@github.com:sauravexodus/RxFirestore.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sauravexodus": "saurav.chandra1992@live.com"
+  },
+  "source": {
+    "git": "https://github.com/sauravexodus/RxFirestore.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RxFirestore/Classes/**/*",
+  "dependencies": {
+    "Firebase/Firestore": [
+
+    ],
+    "RxSwift": [
+
+    ]
+  }
+}
